@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.oferta {
+  height: 300px;
+}
+
+.nav__list {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+}
+.nav__list ul {
+  justify-content: center;
+}
+.nav__list a {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .nav__list {
+    background-color: #000000;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .oferta {
+    height: 400px;
+  }
+
+  .nav__box {
+    position: sticky;
+    height: 60px;
+  }
+}
+.list__style {
+  list-style: none;
+}
+
+.nav__box {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
